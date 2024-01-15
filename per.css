@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9b8765;
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, ;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(102, 102, 118);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+
+    color: rgb(205, 123, 9);
+    font-size: 1.03rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+
+}
+
+.firstsection>div {
+    
+}
+
+.leftsection {
+
+    /* width: 34px; */
+    font-size: 2rem;
+    margin-bottom: 80px;
+    margin-left: 50px;
+
+    /* text-align: center; */
+
+
+}
+
+.rightsection {
+    /* width: 3%; */
+    margin-top: 60px;
+
+
+
+
+}
+
+.purple {
+    color: rgb(237, 234, 36);
+}
+
+IMG {
+    margin-left: 250PX;
+}
+
+#element {
+    color: rgb(189, 192, 27);
+    font-family: cursive;
+    font-size: 3rem;
+
+}
+
+.section2 {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.section2 h1 {
+    font-size: 1.9rem;
+    margin-top: -70px;
+
+}
+
+main hr {
+    background: rgb(5, 5, 5);
+    border: 0px;
+    height: 3px;
+    margin: 120px 84px;
+
+
+
+}
+
+.textgray {
+    color: rgb(8, 7, 7);
+}
+
+.section2 .box {
+    background: white;
+    width: 78vw;
+    height: 2px;
+    margin: 120px 0;
+    display: flex;
+
+}
+
+.section2 .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+
+}
+
+.img2 {
+    width: 50px;
+    position: relative;
+    left: -275px;
+    top: -50px;
+    font-weight: 1px;
+
+}
+
+.vertical-title {
+    position: relative;
+    top: 40px;
+    left: -55px;
+    width: 150px;
+
+}
+
+.vertical-desc {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    left: -80px;
+    font-size: 10px;
+
+}
+
+.year {
+    position: relative;
+    left: -40px;
+    top: 40px;
+    width: 100px;
+}
+
+.size {
+    position: relative;
+    text-align: center;
+    left: -70px;
+
+
+}
+.skil{
+    position: relative;
+    top:-50px;
+
+}
+.about2{
+    position: relative;
+    top: px;
+}
+
+/* section33 */
+.edu {
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    font-size:1.8rem;
+}
+.vertical-title2{
+    position:relative;
+    left:-15px;
+    top: 40px;
+}
+.year2{
+    position: relative;
+    top: 40px;
+    right: 20px;
+}
+/* footer  */
+
+
+footer {
+    background-color: rgb(78, 82, 86);
+    height: 280px;
+}
+
+.footer {
+    display: flex;
+    padding: 20px 122px;
+
+}
+
+.img3{
+    width: 100px;
+    position: relative;
+    left:-200px
+}
+
+.first2 {
+    position: relative;
+    left: 1100px;
+    margin-top: -160px;
+    font-size: 1.22rem;
+
+
+
+
+}
+
+.col a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: 25px;
+
+}
+
+.addr {
+    width: 300px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 10px;
+    color: rgb(167, 236, 236);
+}
+
+.btn {
+    background-color: #f1c866;
+    color: white;
+    border: 2px solid white;
+
+    font-size: 1.48rem;
+    position: relative;
+    top: 100px;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #f16363;
+    font-size: 1.49rem;
+}
+
+.container {
+    /* padding-top: 600px; */
+    height: 800px;
+    padding: 130px;
+    /* max-width: 80vw;  */
+    margin: auto;
+    height: 90vh;
+
+}
+
+.section-title {
+    margin-top: -200px;
+    font-size: 1.2rem;
+
+}
+
+.myname {
+    margin-top: 30px;
+    color: rgb(247, 247, 247);
+    font-size: 1.5rem;
+}
+
+.name {
+    color: rgb(163, 14, 193);
+
+}
+
+.about1 {
+    margin-top: 40px;
+    font-size: 1.2rem;
+
+
+}
+
+.about2 {
+    margin-top: 70px;
+    color: rgb(249, 244, 248);
+
+
+
+}
+
+.bir {
+    margin-left: 50px;
+    /* text-decoration-line:unset; */
+
+
+}
+
+.age {
+    list-style-type: none;
+    position: relative;
+    left: 250px;
+    top: -218px;
+
+}
+
+.skil .skill-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    left: 900px;
+    top: -455px;
+}
+
+.skil .skill-item h5 {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(234, 215, 215);
+    text-transform: capitalize;
+}
+
+.skil .skill-item .progress {
+    background-color: rgb(207, 201, 201);
+    height: 7px;
+    border-radius: 4px;
+    width: 30%;
+
+}
+
+.skil .skill-item {
+    margin-bottom: 30px;
+
+}
+
+.skil .skill-item .progress .progress-in {
+    position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: green;
+}
+
+.skil .skill-item .skill-percent {
+    position: relative;
+    left: 350px;
+    right: 0;
+    color: rgb(238, 220, 202);
+    top: -40px;
+    font-weight: 400;
+    line-height: 40px;
+
+}
+.pro5{
+    position: relative;
+    top: -200px;
+    left: 30px;
+    font-size: 2rem;
+}
+.img9{
+    width: 200px;
+    border: 5px solid black;
+    position: relative;
+    
+}
+.img88{
+    position: relative;
+    left: -200px;
+    top: -150px;
+}
+.text{
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+.text2{
+    position: relative;
+    top: 20px;
+    left: 550px;  
+}
+.text3{
+    position: relative;
+    top: 20px;
+    left: 1000px;
+}
+
+/* contact */
+.contact-section{
+ /* position: relative;
+ top: 700px; */
+    
+}
+.hhh{
+    margin-top: -20px;
+}
+.cotainer55{
+    height: 700px;
+   position: relative;
+   top: 140px;
+   left: 200px;
+   
+} 
+.sss{
+    font-size:2rem;
+}
+.contact-title{
+    position: relative;
+    top: 50px;
+}
+.mm:hover{
+    color: #f16363;
+    font-size: 1.3rem;
+}
+.phone{
+    position: relative;
+    top: 150px;
+}
+.address{
+    position: relative;
+    top: 1px;
+    left: 500px;
+}
+.gmail{
+    position: relative;
+    top: -150px;
+    left: 1000px;  
+}
+.ee{
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+.icon{
+    width: 70px;
+
+}
+.icon1{
+    position: relative;
+    left: -230px;
+
+}
+.icon2{
+    position: relative;
+    left: -250px; 
+}
+.icon3{
+    position: relative;
+    left: -230px; 
+}
+
+
+
+/* project */
+
+
+
+/* @media (max-width:720px){
+    body {
+        background-color:#8f0707;
+        color: white;
+        font-family: 'Poppins',Arial, Helvetica,; 
+    }
+    nav ul{
+        display: flex;
+        justify-content:end   ;
+        flex-direction: column;
+    }
+    
+} */
